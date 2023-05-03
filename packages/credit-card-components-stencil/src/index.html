@@ -9,6 +9,15 @@
     <script nomodule src="/build/credit-card-components-stencil.js"></script>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <card-form-container>
+      <credit-card-input slot="credit-card"></credit-card-input>
+      <card-expiration-input slot="expiration"></card-expiration-input>
+      <cvv-input slot="cvv"></cvv-input>
+      <card-holder-input slot="card-holder"></card-holder-input>
+    </card-form-container>
+
+    <div style="display: flex; flex-direction: column; margin-top: 8px;">
+      <error-message>The card number is required</error-message>
+    </div>
   </body>
 </html>
