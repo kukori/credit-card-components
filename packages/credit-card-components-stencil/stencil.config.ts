@@ -10,7 +10,7 @@ export const config: Config = {
     },
     reactOutputTarget({
       componentCorePackage: 'credit-card-components-stencil',
-      proxiesFile: '../credit-card-components-stencil/lib/components/stencil-generated/index.ts',
+      proxiesFile: '../credit-card-components-react/lib/components/stencil-generated/index.ts',
     }),
     {
       type: 'dist-custom-elements',
