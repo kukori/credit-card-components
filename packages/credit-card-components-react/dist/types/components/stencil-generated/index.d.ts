@@ -1,0 +1,9 @@
+/// <reference types="react" />
+import type { JSX } from 'credit-card-components-stencil';
+export declare const CardExpirationInput: import("react").ForwardRefExoticComponent<JSX.CardExpirationInput & Omit<import("react").HTMLAttributes<HTMLCardExpirationInputElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLCardExpirationInputElement>>;
+export declare const CardFormContainer: import("react").ForwardRefExoticComponent<JSX.CardFormContainer & Omit<import("react").HTMLAttributes<HTMLCardFormContainerElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLCardFormContainerElement>>;
+export declare const CardHolderInput: import("react").ForwardRefExoticComponent<JSX.CardHolderInput & Omit<import("react").HTMLAttributes<HTMLCardHolderInputElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLCardHolderInputElement>>;
+export declare const CreditCardInput: import("react").ForwardRefExoticComponent<JSX.CreditCardInput & Omit<import("react").HTMLAttributes<HTMLCreditCardInputElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLCreditCardInputElement>>;
+export declare const CvvInput: import("react").ForwardRefExoticComponent<JSX.CvvInput & Omit<import("react").HTMLAttributes<HTMLCvvInputElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLCvvInputElement>>;
+export declare const ErrorMessage: import("react").ForwardRefExoticComponent<JSX.ErrorMessage & Omit<import("react").HTMLAttributes<HTMLErrorMessageElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLErrorMessageElement>>;
+export { defineCustomElements } from "credit-card-components-stencil/loader";
