@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "credit-card-components-stencil": "*"
+    "credit-card-components-stencil": "^0.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
