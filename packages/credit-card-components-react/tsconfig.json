@@ -1,15 +1,19 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "declaration": true,
-      "noImplicitAny": false,
-      "removeComments": true,
-      "noLib": false,
-      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "allowUnreachableCode": false,
+      "declaration": false,
       "experimentalDecorators": true,
-      "target": "es6",
-      "sourceMap": true,
-      "lib": ["es6"]
+      "lib": [
+        "dom",
+        "es2017"
+      ],
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "es2017",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "jsx": "react-jsx",
     },
     "exclude": ["node_modules", "**/*.spec.ts", "**/__tests__/**"]
   }
