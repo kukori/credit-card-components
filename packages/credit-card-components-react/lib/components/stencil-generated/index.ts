@@ -13,3 +13,5 @@ export const CardHolderInput = /*@__PURE__*/createReactComponent<JSX.CardHolderI
 export const CreditCardInput = /*@__PURE__*/createReactComponent<JSX.CreditCardInput, HTMLCreditCardInputElement>('credit-card-input');
 export const CvvInput = /*@__PURE__*/createReactComponent<JSX.CvvInput, HTMLCvvInputElement>('cvv-input');
 export const ErrorMessage = /*@__PURE__*/createReactComponent<JSX.ErrorMessage, HTMLErrorMessageElement>('error-message');
+
+export { defineCustomElements } from "credit-card-components-stencil/loader";
