@@ -1,4 +1,4 @@
-import { Component, h, State, Prop, Event, EventEmitter } from '@stencil/core';
+import { Component, h, Prop, Event, EventEmitter } from '@stencil/core';
 
 @Component({
   tag: 'card-holder-input',
@@ -7,7 +7,7 @@ import { Component, h, State, Prop, Event, EventEmitter } from '@stencil/core';
 })
 export class CreditCardInput {
   @Prop() error: boolean;
-  @State() value: string = "";
+  @Prop() value: string = "";
   @Prop() name: string = "card-holder";
   @Event() changed: EventEmitter<string>;
 

@@ -1,4 +1,4 @@
-import { Component, h, State, Prop, Event, EventEmitter } from '@stencil/core';
+import { Component, h, Prop, Event, EventEmitter } from '@stencil/core';
 import { removeNaNFromString } from '../../utils/utils';
 
 @Component({
@@ -9,7 +9,7 @@ import { removeNaNFromString } from '../../utils/utils';
 export class CardExpirationInput {
   @Prop() error: boolean;
   @Prop() name: string = "expiration-date";
-  @State() value: string = "";
+  @Prop() value: string = "";
   @Event() changed: EventEmitter<string>;
 
   private handleOnKeyDown = (event: KeyboardEvent) => {

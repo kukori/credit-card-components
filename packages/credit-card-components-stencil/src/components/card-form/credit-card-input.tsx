@@ -9,12 +9,8 @@ import { removeNaNFromString } from '../../utils/utils';
 export class CreditCardInput {
   @Prop() error: boolean;
   @Prop() name: string = "credit-card";
-  @State() value: string = "";
+  @Prop() value: string = "";
   @Event() changed: EventEmitter<string>;
-
-  componentDidUpdate() {
-    console.log('UPDATED VALUE',this.value);
-  }
 
   private handleOnKeyDown = (event: KeyboardEvent) => {
     if(!["0","1","2","3","4","5","6","7","8","9", "Backspace", "Tab" ].includes(event.key) || (this.value.length > 18 && !["Backspace", "Tab"].includes(event.key))) {
