@@ -1,6 +1,6 @@
 {
   "name": "credit-card-components-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Credit Card Components React Wrapper",
   "author": "kukori <attila.varjas@gmail.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "credit-card-components-stencil": "^0.0.4"
+    "credit-card-components-stencil": "^0.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
