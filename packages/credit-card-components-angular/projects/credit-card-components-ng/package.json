@@ -4,7 +4,7 @@
   "peerDependencies": {
     "@angular/common": "^16.0.0",
     "@angular/core": "^16.0.0",
-    "credit-card-components-stencil": "^0.0.6"
+    "credit-card-components-stencil": "*"
   },
   "dependencies": {
     "tslib": "^2.3.0"
