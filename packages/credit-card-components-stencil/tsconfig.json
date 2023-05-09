@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // "skipLibCheck": true, // this is needed for generating the angular package because one of the dependencies has a typescript error 
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "declaration": false,
