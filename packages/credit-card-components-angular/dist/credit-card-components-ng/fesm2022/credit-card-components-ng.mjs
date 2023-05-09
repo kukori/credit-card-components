@@ -215,9 +215,7 @@ class CreditCardComponentsNgModule {
             {
                 provide: APP_INITIALIZER,
                 multi: true,
-                useFactory: () => {
-                    return defineCustomElements();
-                },
+                useFactory: defineCustomElements
             },
         ] }); }
 }
@@ -235,9 +233,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImpor
                         {
                             provide: APP_INITIALIZER,
                             multi: true,
-                            useFactory: () => {
-                                return defineCustomElements();
-                            },
+                            useFactory: defineCustomElements
                         },
                     ]
                 }]

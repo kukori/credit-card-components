@@ -16,9 +16,7 @@ import { defineCustomElements } from 'credit-card-components-stencil/loader';
     {
       provide: APP_INITIALIZER,
       multi: true,
-      useFactory: () => {
-        return defineCustomElements();
-      },
+      useFactory: defineCustomElements
     },
   ]
 })
