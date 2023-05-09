@@ -1,6 +1,6 @@
 {
   "name": "credit-card-components-angular",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,10 +20,10 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "credit-card-components-stencil": "^0.0.9",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.13.0",
-    "credit-card-components-stencil": "*"
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.0.0",
