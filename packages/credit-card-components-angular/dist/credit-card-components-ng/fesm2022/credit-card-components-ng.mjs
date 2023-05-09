@@ -214,6 +214,7 @@ class CreditCardComponentsNgModule {
     static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, providers: [
             {
                 provide: APP_INITIALIZER,
+                multi: true,
                 useFactory: () => {
                     return defineCustomElements();
                 },
@@ -233,6 +234,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImpor
                     providers: [
                         {
                             provide: APP_INITIALIZER,
+                            multi: true,
                             useFactory: () => {
                                 return defineCustomElements();
                             },
