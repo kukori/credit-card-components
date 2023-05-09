@@ -12,14 +12,13 @@ import { defineCustomElements } from 'credit-card-components-stencil/loader';
   exports: [
     ...DIRECTIVES
   ],
-  // providers: [
-  //   {
-  //     provide: APP_INITIALIZER,
-  //     multi: true,
-  //     useFactory: () => {
-  //       return defineCustomElements();
-  //     },
-  //   },
-  // ]
+  providers: [
+    {
+      provide: APP_INITIALIZER,
+      useFactory: () => {
+        return defineCustomElements();
+      },
+    },
+  ]
 })
 export class CreditCardComponentsNgModule { }
