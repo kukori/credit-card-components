@@ -1,8 +1,7 @@
 import * as i0 from '@angular/core';
-import { Component, ChangeDetectionStrategy, APP_INITIALIZER, NgModule } from '@angular/core';
+import { Component, ChangeDetectionStrategy, NgModule } from '@angular/core';
 import { __decorate } from 'tslib';
 import { fromEvent } from 'rxjs';
-import { defineCustomElements } from 'credit-card-components-stencil/loader';
 
 /* eslint-disable */
 /* tslint:disable */
@@ -211,15 +210,7 @@ const DIRECTIVES = [
 class CreditCardComponentsNgModule {
     static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
     static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, declarations: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage], exports: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage] }); }
-    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, providers: [
-            {
-                provide: APP_INITIALIZER,
-                multi: true,
-                useFactory: () => {
-                    return defineCustomElements();
-                },
-            },
-        ] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule }); }
 }
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, decorators: [{
             type: NgModule,
@@ -231,15 +222,15 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImpor
                     exports: [
                         ...DIRECTIVES
                     ],
-                    providers: [
-                        {
-                            provide: APP_INITIALIZER,
-                            multi: true,
-                            useFactory: () => {
-                                return defineCustomElements();
-                            },
-                        },
-                    ]
+                    // providers: [
+                    //   {
+                    //     provide: APP_INITIALIZER,
+                    //     multi: true,
+                    //     useFactory: () => {
+                    //       return defineCustomElements();
+                    //     },
+                    //   },
+                    // ]
                 }]
         }] });
 
