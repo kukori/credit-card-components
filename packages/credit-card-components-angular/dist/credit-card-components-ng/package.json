@@ -1,0 +1,26 @@
+{
+  "name": "credit-card-components-ng",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "credit-card-components-stencil": "^0.0.6"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/credit-card-components-ng.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/credit-card-components-ng.mjs",
+      "esm": "./esm2022/credit-card-components-ng.mjs",
+      "default": "./fesm2022/credit-card-components-ng.mjs"
+    }
+  }
+}
