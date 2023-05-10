@@ -6,7 +6,7 @@ export declare class CardExpirationInput {
     protected el: HTMLElement;
     constructor(c: ChangeDetectorRef, r: ElementRef, z: NgZone);
     static ɵfac: i0.ɵɵFactoryDeclaration<CardExpirationInput, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CardExpirationInput, "card-expiration-input", never, { "error": { "alias": "error"; "required": false; }; "name": { "alias": "name"; "required": false; }; "value": { "alias": "value"; "required": false; }; }, {}, never, ["*"], false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CardExpirationInput, "card-expiration-input", never, { "error": "error"; "name": "name"; "value": "value"; }, {}, never, ["*"], false, never>;
 }
 export declare interface CardExpirationInput extends Components.CardExpirationInput {
     changed: EventEmitter<CustomEvent<string>>;
@@ -25,7 +25,7 @@ export declare class CardHolderInput {
     protected el: HTMLElement;
     constructor(c: ChangeDetectorRef, r: ElementRef, z: NgZone);
     static ɵfac: i0.ɵɵFactoryDeclaration<CardHolderInput, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CardHolderInput, "card-holder-input", never, { "error": { "alias": "error"; "required": false; }; "name": { "alias": "name"; "required": false; }; "value": { "alias": "value"; "required": false; }; }, {}, never, ["*"], false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CardHolderInput, "card-holder-input", never, { "error": "error"; "name": "name"; "value": "value"; }, {}, never, ["*"], false, never>;
 }
 export declare interface CardHolderInput extends Components.CardHolderInput {
     changed: EventEmitter<CustomEvent<string>>;
@@ -35,7 +35,7 @@ export declare class CreditCardInput {
     protected el: HTMLElement;
     constructor(c: ChangeDetectorRef, r: ElementRef, z: NgZone);
     static ɵfac: i0.ɵɵFactoryDeclaration<CreditCardInput, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CreditCardInput, "credit-card-input", never, { "error": { "alias": "error"; "required": false; }; "name": { "alias": "name"; "required": false; }; "value": { "alias": "value"; "required": false; }; }, {}, never, ["*"], false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CreditCardInput, "credit-card-input", never, { "error": "error"; "name": "name"; "value": "value"; }, {}, never, ["*"], false, never>;
 }
 export declare interface CreditCardInput extends Components.CreditCardInput {
     changed: EventEmitter<CustomEvent<string>>;
@@ -45,7 +45,7 @@ export declare class CvvInput {
     protected el: HTMLElement;
     constructor(c: ChangeDetectorRef, r: ElementRef, z: NgZone);
     static ɵfac: i0.ɵɵFactoryDeclaration<CvvInput, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CvvInput, "cvv-input", never, { "error": { "alias": "error"; "required": false; }; "name": { "alias": "name"; "required": false; }; "value": { "alias": "value"; "required": false; }; }, {}, never, ["*"], false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CvvInput, "cvv-input", never, { "error": "error"; "name": "name"; "value": "value"; }, {}, never, ["*"], false, never>;
 }
 export declare interface CvvInput extends Components.CvvInput {
     changed: EventEmitter<CustomEvent<string>>;

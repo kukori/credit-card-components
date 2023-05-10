@@ -61,15 +61,15 @@ let CardExpirationInput = class CardExpirationInput {
         this.el = r.nativeElement;
         proxyOutputs(this, this.el, ['changed']);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardExpirationInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: CardExpirationInput, selector: "card-expiration-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+CardExpirationInput.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardExpirationInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+CardExpirationInput.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: CardExpirationInput, selector: "card-expiration-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 CardExpirationInput = __decorate([
     ProxyCmp({
         inputs: ['error', 'name', 'value']
     })
 ], CardExpirationInput);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardExpirationInput, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardExpirationInput, decorators: [{
             type: Component,
             args: [{
                     selector: 'card-expiration-input',
@@ -85,13 +85,13 @@ let CardFormContainer = class CardFormContainer {
         c.detach();
         this.el = r.nativeElement;
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardFormContainer, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: CardFormContainer, selector: "card-form-container", ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+CardFormContainer.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardFormContainer, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+CardFormContainer.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: CardFormContainer, selector: "card-form-container", ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 CardFormContainer = __decorate([
     ProxyCmp({})
 ], CardFormContainer);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardFormContainer, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardFormContainer, decorators: [{
             type: Component,
             args: [{
                     selector: 'card-form-container',
@@ -108,15 +108,15 @@ let CardHolderInput = class CardHolderInput {
         this.el = r.nativeElement;
         proxyOutputs(this, this.el, ['changed']);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardHolderInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: CardHolderInput, selector: "card-holder-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+CardHolderInput.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardHolderInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+CardHolderInput.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: CardHolderInput, selector: "card-holder-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 CardHolderInput = __decorate([
     ProxyCmp({
         inputs: ['error', 'name', 'value']
     })
 ], CardHolderInput);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CardHolderInput, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CardHolderInput, decorators: [{
             type: Component,
             args: [{
                     selector: 'card-holder-input',
@@ -133,15 +133,15 @@ let CreditCardInput = class CreditCardInput {
         this.el = r.nativeElement;
         proxyOutputs(this, this.el, ['changed']);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: CreditCardInput, selector: "credit-card-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+CreditCardInput.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CreditCardInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+CreditCardInput.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: CreditCardInput, selector: "credit-card-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 CreditCardInput = __decorate([
     ProxyCmp({
         inputs: ['error', 'name', 'value']
     })
 ], CreditCardInput);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardInput, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CreditCardInput, decorators: [{
             type: Component,
             args: [{
                     selector: 'credit-card-input',
@@ -158,15 +158,15 @@ let CvvInput = class CvvInput {
         this.el = r.nativeElement;
         proxyOutputs(this, this.el, ['changed']);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CvvInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: CvvInput, selector: "cvv-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+CvvInput.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CvvInput, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+CvvInput.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: CvvInput, selector: "cvv-input", inputs: { error: "error", name: "name", value: "value" }, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 CvvInput = __decorate([
     ProxyCmp({
         inputs: ['error', 'name', 'value']
     })
 ], CvvInput);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CvvInput, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CvvInput, decorators: [{
             type: Component,
             args: [{
                     selector: 'cvv-input',
@@ -182,13 +182,13 @@ let ErrorMessage = class ErrorMessage {
         c.detach();
         this.el = r.nativeElement;
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: ErrorMessage, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.0", type: ErrorMessage, selector: "error-message", ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush }); }
 };
+ErrorMessage.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: ErrorMessage, deps: [{ token: i0.ChangeDetectorRef }, { token: i0.ElementRef }, { token: i0.NgZone }], target: i0.ɵɵFactoryTarget.Component });
+ErrorMessage.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: ErrorMessage, selector: "error-message", ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
 ErrorMessage = __decorate([
     ProxyCmp({})
 ], ErrorMessage);
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: ErrorMessage, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: ErrorMessage, decorators: [{
             type: Component,
             args: [{
                     selector: 'error-message',
@@ -209,18 +209,18 @@ const DIRECTIVES = [
 ];
 
 class CreditCardComponentsNgModule {
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
-    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, declarations: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage], exports: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage] }); }
-    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, providers: [
-            {
-                provide: APP_INITIALIZER,
-                useFactory: () => {
-                    return defineCustomElements();
-                },
-            },
-        ] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, decorators: [{
+CreditCardComponentsNgModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CreditCardComponentsNgModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+CreditCardComponentsNgModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "15.2.9", ngImport: i0, type: CreditCardComponentsNgModule, declarations: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage], exports: [CardExpirationInput, CardFormContainer, CardHolderInput, CreditCardInput, CvvInput, ErrorMessage] });
+CreditCardComponentsNgModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CreditCardComponentsNgModule, providers: [
+        {
+            provide: APP_INITIALIZER,
+            useFactory: () => {
+                return defineCustomElements();
+            },
+        },
+    ] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: CreditCardComponentsNgModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [...DIRECTIVES],
