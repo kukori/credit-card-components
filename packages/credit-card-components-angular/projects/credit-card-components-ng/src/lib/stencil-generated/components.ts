@@ -22,7 +22,7 @@ export class CardExpirationInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['change']);
+    proxyOutputs(this, this.el, ['change', 'changed']);
   }
 }
 
@@ -30,6 +30,8 @@ export class CardExpirationInput {
 export declare interface CardExpirationInput extends Components.CardExpirationInput {
 
   change: EventEmitter<CustomEvent<string>>;
+
+  changed: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -69,7 +71,7 @@ export class CardHolderInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['change']);
+    proxyOutputs(this, this.el, ['change', 'changed']);
   }
 }
 
@@ -77,6 +79,8 @@ export class CardHolderInput {
 export declare interface CardHolderInput extends Components.CardHolderInput {
 
   change: EventEmitter<CustomEvent<string>>;
+
+  changed: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -95,7 +99,7 @@ export class CreditCardInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['change']);
+    proxyOutputs(this, this.el, ['change', 'changed']);
   }
 }
 
@@ -103,6 +107,8 @@ export class CreditCardInput {
 export declare interface CreditCardInput extends Components.CreditCardInput {
 
   change: EventEmitter<CustomEvent<string>>;
+
+  changed: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -121,7 +127,7 @@ export class CvvInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['change']);
+    proxyOutputs(this, this.el, ['change', 'changed']);
   }
 }
 
@@ -129,6 +135,8 @@ export class CvvInput {
 export declare interface CvvInput extends Components.CvvInput {
 
   change: EventEmitter<CustomEvent<string>>;
+
+  changed: EventEmitter<CustomEvent<string>>;
 }
 
 
