@@ -22,14 +22,14 @@ export class CardExpirationInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['changed']);
+    proxyOutputs(this, this.el, ['change']);
   }
 }
 
 
 export declare interface CardExpirationInput extends Components.CardExpirationInput {
 
-  changed: EventEmitter<CustomEvent<string>>;
+  change: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -69,14 +69,14 @@ export class CardHolderInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['changed']);
+    proxyOutputs(this, this.el, ['change']);
   }
 }
 
 
 export declare interface CardHolderInput extends Components.CardHolderInput {
 
-  changed: EventEmitter<CustomEvent<string>>;
+  change: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -95,14 +95,14 @@ export class CreditCardInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['changed']);
+    proxyOutputs(this, this.el, ['change']);
   }
 }
 
 
 export declare interface CreditCardInput extends Components.CreditCardInput {
 
-  changed: EventEmitter<CustomEvent<string>>;
+  change: EventEmitter<CustomEvent<string>>;
 }
 
 
@@ -121,14 +121,14 @@ export class CvvInput {
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
     this.el = r.nativeElement;
-    proxyOutputs(this, this.el, ['changed']);
+    proxyOutputs(this, this.el, ['change']);
   }
 }
 
 
 export declare interface CvvInput extends Components.CvvInput {
 
-  changed: EventEmitter<CustomEvent<string>>;
+  change: EventEmitter<CustomEvent<string>>;
 }
 
 

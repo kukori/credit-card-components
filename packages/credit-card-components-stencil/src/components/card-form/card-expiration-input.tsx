@@ -10,7 +10,7 @@ export class CardExpirationInput {
   @Prop() error: boolean;
   @Prop() name: string = "expiration-date";
   @Prop() value: string = "";
-  @Event() changed: EventEmitter<string>;
+  @Event() change: EventEmitter<string>;
 
   private handleOnKeyDown = (event: KeyboardEvent) => {
     if(!["0","1","2","3","4","5","6","7","8","9", "Backspace", "Tab"  ].includes(event.key) || (this.value.length > 6 && !["Backspace", "Tab"].includes(event.key))) {
@@ -41,7 +41,7 @@ export class CardExpirationInput {
   private handleOnInput = (event: InputEvent) => {
     const newValue = this.formatDate(this.formatMonths(removeNaNFromString((event.target as HTMLInputElement).value)));
     this.value = newValue;
-    this.changed.emit(newValue);
+    this.change.emit(newValue);
   }
 
   private getClass = () => {

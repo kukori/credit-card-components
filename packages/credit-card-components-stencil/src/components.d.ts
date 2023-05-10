@@ -97,7 +97,7 @@ declare namespace LocalJSX {
     interface CardExpirationInput {
         "error"?: boolean;
         "name"?: string;
-        "onChanged"?: (event: CardExpirationInputCustomEvent<string>) => void;
+        "onChange"?: (event: CardExpirationInputCustomEvent<string>) => void;
         "value"?: string;
     }
     interface CardFormContainer {
@@ -105,19 +105,19 @@ declare namespace LocalJSX {
     interface CardHolderInput {
         "error"?: boolean;
         "name"?: string;
-        "onChanged"?: (event: CardHolderInputCustomEvent<string>) => void;
+        "onChange"?: (event: CardHolderInputCustomEvent<string>) => void;
         "value"?: string;
     }
     interface CreditCardInput {
         "error"?: boolean;
         "name"?: string;
-        "onChanged"?: (event: CreditCardInputCustomEvent<string>) => void;
+        "onChange"?: (event: CreditCardInputCustomEvent<string>) => void;
         "value"?: string;
     }
     interface CvvInput {
         "error"?: boolean;
         "name"?: string;
-        "onChanged"?: (event: CvvInputCustomEvent<string>) => void;
+        "onChange"?: (event: CvvInputCustomEvent<string>) => void;
         "value"?: string;
     }
     interface ErrorMessage {
