@@ -11,6 +11,7 @@ export class CreditCardInput {
   @Prop() name: string = "cvv";
   @Prop() value: string = "";
   @Event() change: EventEmitter<string>;
+  @Event() changed: EventEmitter<string>;
 
   private handleOnKeyDown = (event: KeyboardEvent) => {
     if(!["0","1","2","3","4","5","6","7","8","9", "Backspace", "Tab" ].includes(event.key) || (this.value.length > 2 && !["Backspace", "Tab"].includes(event.key))) {
@@ -22,6 +23,7 @@ export class CreditCardInput {
     let newValue = removeNaNFromString((event.target as HTMLInputElement).value);
     this.value = newValue;
     this.change.emit(newValue);
+    this.changed.emit(newValue);
   }
 
   private getClass = () => {

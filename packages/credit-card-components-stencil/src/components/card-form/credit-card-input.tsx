@@ -11,6 +11,7 @@ export class CreditCardInput {
   @Prop() name: string = "credit-card";
   @Prop() value: string = "";
   @Event() change: EventEmitter<string>;
+  @Event() changed: EventEmitter<string>;
 
   private handleOnKeyDown = (event: KeyboardEvent) => {
     if(!["0","1","2","3","4","5","6","7","8","9", "Backspace", "Tab" ].includes(event.key) || (this.value.length > 18 && !["Backspace", "Tab"].includes(event.key))) {
@@ -35,6 +36,7 @@ export class CreditCardInput {
     separatedCardNumber += newValue.slice(position);
     this.value = separatedCardNumber;
     this.change.emit(separatedCardNumber);
+    this.changed.emit(separatedCardNumber);
   }
 
   private getClass = () => {
