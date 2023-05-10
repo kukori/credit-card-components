@@ -3,15 +3,10 @@ import { DIRECTIVES } from './stencil-generated';
 import { defineCustomElements } from 'credit-card-components-stencil/loader';
 
 
+
 @NgModule({
-  declarations: [
-    ...DIRECTIVES
-  ],
-  imports: [
-  ],
-  exports: [
-    ...DIRECTIVES
-  ],
+  declarations: [...DIRECTIVES],
+  exports: [...DIRECTIVES],
   providers: [
     {
       provide: APP_INITIALIZER,

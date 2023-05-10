@@ -223,13 +223,8 @@ class CreditCardComponentsNgModule {
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.0", ngImport: i0, type: CreditCardComponentsNgModule, decorators: [{
             type: NgModule,
             args: [{
-                    declarations: [
-                        ...DIRECTIVES
-                    ],
-                    imports: [],
-                    exports: [
-                        ...DIRECTIVES
-                    ],
+                    declarations: [...DIRECTIVES],
+                    exports: [...DIRECTIVES],
                     providers: [
                         {
                             provide: APP_INITIALIZER,
