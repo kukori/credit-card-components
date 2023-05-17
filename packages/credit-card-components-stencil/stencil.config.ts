@@ -1,6 +1,7 @@
 import { Config } from '@stencil/core';
 import { reactOutputTarget } from '@stencil/react-output-target';
 import { angularOutputTarget } from '@stencil/angular-output-target';
+import { vueOutputTarget } from '@stencil/vue-output-target';
 
 export const config: Config = {
   namespace: 'credit-card-components-stencil',
@@ -17,6 +18,10 @@ export const config: Config = {
       componentCorePackage: 'credit-card-components-stencil',
       directivesProxyFile: '../credit-card-components-angular/projects/credit-card-components-ng/src/lib/stencil-generated/components.ts',
       directivesArrayFile: '../credit-card-components-angular/projects/credit-card-components-ng/src/lib/stencil-generated/index.ts',
+    }),
+    vueOutputTarget({
+      componentCorePackage: 'credit-card-components-stencil',
+      proxiesFile: '../credit-card-components-vue/lib/components.ts',
     }),
     {
       type: 'dist-custom-elements',
