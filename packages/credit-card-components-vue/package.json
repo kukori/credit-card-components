@@ -1,6 +1,6 @@
 {
   "name": "credit-card-components-vue",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "> TODO: description",
   "author": "kukori <attila.varjas@gmail.com>",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "access": "public"
   },
   "dependencies": {
-    "credit-card-components-stencil": "^0.0.21"
+    "credit-card-components-stencil": "^0.0.22"
   },
   "bugs": {
     "url": "https://github.com/kukori/credit-card-components/issues"
