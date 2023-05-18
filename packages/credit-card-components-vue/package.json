@@ -11,9 +11,14 @@
     "test": "__tests__"
   },
   "files": [
-    "dist",
-    "lib"
+    "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "credit-card-components-stencil": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kukori/credit-card-components.git"
@@ -22,12 +27,6 @@
     "test": "node ./__tests__/credit-card-components-vue.test.js",
     "build": "npm run tsc",
     "tsc": "tsc -p ."
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "credit-card-components-stencil": "^0.0.23"
   },
   "bugs": {
     "url": "https://github.com/kukori/credit-card-components/issues"
